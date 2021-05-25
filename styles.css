@@ -1,7 +1,12 @@
 @import "reset.css";
 
+.wrap {
+  height: 100vh;
+}
+
 .opgg-banner {
   display: flex;
+  background-color: #232f46;
 }
 
 .opgg-banner__img {
@@ -59,7 +64,6 @@
 
 .nav-desktop__items {
   display: flex;
-  background-color: tomato;
 }
 
 .desktop {
@@ -79,4 +83,131 @@
   position: absolute;
   left: 32px;
   top: 6px;
+}
+
+.nav-desktop__item {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.nav-desktop__item:hover {
+  background-color: #2f4362;
+}
+
+.nav-desktop__btn {
+  display: flex;
+  position: absolute;
+  right: 0px;
+  height: 40px;
+}
+
+.btn-language {
+  display: flex;
+}
+
+.btn-language button {
+  background-color: #232f46;
+  border: none;
+  cursor: pointer;
+}
+.btn-language button span {
+  font-size: 12px;
+  margin-right: 10px;
+  color: #c3cbd1;
+}
+
+.btn-language button i {
+  color: white;
+}
+
+.btn-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-language img {
+  padding: 8px 0;
+}
+
+.btn-login {
+  margin: 6px 16px;
+  background-color: #5383e8;
+  color: white;
+  padding: 0 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-login span {
+  font-size: 12px;
+}
+
+.btn-language {
+  background-color: #232f46;
+}
+
+@media (max-width: 1300px) {
+  .aggro {
+    visibility: hidden;
+  }
+}
+
+.menu {
+  height: 48px;
+  background-color: #5383e8;
+}
+
+.alert {
+  height: 40px;
+  background-color: #294174;
+}
+
+.alert-item {
+  width: 1080px;
+  height: 40px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.alert-item span {
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.alert a {
+  color: white;
+  text-decoration: none;
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.alert a:hover {
+  text-decoration: underline;
+}
+
+.wrap {
+  background-color: #5383e8;
+}
+
+.container {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  width: 375px;
+  height: 200px;
+}
+
+.logo-index {
+  padding: 32px 0 24px 0;
 }
