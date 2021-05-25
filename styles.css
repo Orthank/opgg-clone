@@ -1,0 +1,82 @@
+@import "reset.css";
+
+.opgg-banner {
+  display: flex;
+}
+
+.opgg-banner__img {
+  display: flex;
+  background-color: #5383e8;
+  padding: 12px 15px;
+}
+
+.nav-desktop {
+  display: flex;
+}
+
+.nav-desktop__lol {
+  background-color: #5383e8;
+  padding-left: 4px;
+  padding-right: 12px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-desktop__lol .icon {
+  width: 24px;
+  height: 24px;
+}
+
+.nav-desktop__lol span {
+  margin-left: 8px;
+  font-size: 12px;
+  color: white;
+}
+
+.nav-desktop__item {
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  margin: 4px;
+  color: #c3cbd1;
+}
+
+.nav-desktop__item span {
+  font-size: 12px;
+  margin-left: 8px;
+}
+
+.nav-desktop__item .icon {
+  width: 24px;
+  height: 24px;
+}
+
+.nav-desktop a {
+  border-radius: 5px;
+  background-color: #232f46;
+}
+
+.nav-desktop__items {
+  display: flex;
+  background-color: tomato;
+}
+
+.desktop {
+  position: relative;
+}
+
+.desktop div {
+  margin-right: 35px;
+}
+
+.nav-desktop__item .beta {
+  background-color: #ffb900;
+  color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  padding: 2px 3px;
+  font-size: 11px;
+  position: absolute;
+  left: 32px;
+  top: 6px;
+}
